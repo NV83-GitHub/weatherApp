@@ -96,3 +96,22 @@ body {
   padding: 5px 10px;
   border-radius: 25px;
 }
+
+.mainDay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mainDay .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainDay .text h3 {
+  background-color: grey;
+  padding: 5px 15px;
+  border-radius: 25px;
+  margin: 25px;
+}
